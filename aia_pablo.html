@@ -1,8 +1,56 @@
-<?php include "includes/header.php";?>
- 
-<!-- This is a template to start new pages -->
+<!DOCTYPE html>
+<html>
+	<head>
+	    <meta charset="utf-8" />
+	    <title>AIA by Pablo</title>
+	    <meta name="robots" content="noindex,nofollow" />
+	    <style type="text/css">
+	    html 
+	    	{
+	    	background-color: rgb(219, 235, 234);
+	    	}
+		h1{
+			font: 26px Arial, Helvetica, sans-serif;
+			font-weight: 600;
+            padding:5px ;
+			}
+	    	
+	    table
+			{
+	      	border-collapse:collapse;
+			  font: 16px "Verdana", Arial, Helvetica, sans-serif;
+	      	}
+	      	
+	    table.client th
+	    	{
+	        width:340px;
+	        text-align:left;
+	        border:2px solid rgb(151, 133, 203);
+	        padding:5px;
+	        background-color:lightcyan;
+	        }
+	        
+		.audience th 
+			{
+	        width:200px;
+	        text-align:center;
+	        border:2px solid rgb(74, 46, 88);
+	        padding:20px;
+	        background-color:rgb(144, 145, 213);
+	        }
+	        
+	    td 
+	    	{
+		     border:2px solid rgb(74, 46, 88);
+		     padding:12px; 
+		     width:320px;
+		     background-color: lavender;
+		     }
+		h1 {color: darkblue}
+	    </style>
 
-<body>
+	</head>
+	<body>
 		    <header><h1>Audience, Issues and Approach by Pablo </h1></header> 
 		      
 		     <table class="client">
@@ -47,7 +95,7 @@
 				   <th>Approach</th>
 				 </tr>
 				 <tr>
-				   <td><h4>Government (Courts/Lawyers/Social entities)</h4>
+				   <td><h3>Government (Courts/Lawyers/Social entities)</h3>
 				   <p>
                     For each of these categories, the profile 
                     is the similar. In government, it is usually an administrative officer or clerk
@@ -75,7 +123,7 @@
 				    </td>
 				 </tr>
 				 <tr>
-				   <td><h4>Private industry. Small businesses, companies and corporations.</h4>
+				   <td><h3>Private industry. Small businesses, companies and corporations.</h3>
 				   <p>
 				   	The clients in this category are knowledgeable and generally sophisticated. However they lack 
                     practical knowledge of what it takes to do a translation or interpretation.  
@@ -105,7 +153,7 @@
 				  </td>
 				 </tr>
 				 <tr>
-				   <td><h4>Social Work (Non-for-profit Organizations) </h4>
+				   <td><h3>Social Work (Non-for-profit Organizations) </h3>
 				   <p>
                     The audience for the website in this group is a person who has been assigned the 
                     task of finding translation or 
@@ -146,9 +194,42 @@
 		    	</tr>
 		    </table>
 		    
-
-         
-
+		    <!-- <footer>
+		        <small>&copy; 2013, All Rights Reserved ~
+			        <a href="http://validator.w3.org/check/referer" target="_blank">Valid HTML</a> ~
+			        <a href="http://jigsaw.w3.org/css-validator/check?uri=referer" target="_blank">Valid CSS</a>
+		        </small>
+		     </footer> -->
+             <footer>
+                <p><small>&copy; 2022-<?=date("Y")?> by 
+                    <a href="contact.php">Pablo Sepulveda</a> All Rights Reserved ~ 
+                    <a id="html-checker" href="#">Check HTML</a> ~ 
+                    <a id="css-checker" href="#">Check CSS</a></small>
+               </p>
+              </footer>
+          <!-- END Footer --> 
+          </main>
+          <!-- END WRAPPER -->
+          
+              
+          
+          
+          
+            <script>
+              //https://tinyurl.com/dynamic-html-checker
+              document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+                      document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href); 
+          
+              //manages mobile nav - from W3Schools
+              function myFunction() {
+                      var x = document.getElementById("myTopnav");
+                      if (x.className === "topnav") {
+                               x.className += " responsive";
+                      } else {
+                               x.className = "topnav";
+                     }
+              }   
+           </script>    
 
 	</body>
-<?php include "includes/footer.php";?>
+</html>
