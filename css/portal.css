@@ -30,57 +30,6 @@ p {
     font-size:1.25em;
 }
 
-/* Styles for AIA tables page, start below */
-
-	    html 
-	    	{
-	    	background-color: rgb(219, 235, 234);
-	    	}
-		h1{
-			font: 26px Arial, Helvetica, sans-serif;
-			font-weight: 600;
-            padding:5px ;
-			}
-	    	
-	    table
-			{
-	      	border-collapse:collapse;
-			  font: 16px "Verdana", Arial, Helvetica, sans-serif;
-	      	}
-	      	
-	    table.client th
-	    	{
-	        width:340px;
-	        text-align:left;
-	        border:2px solid rgb(151, 133, 203);
-	        padding:5px;
-	        background-color:lightcyan;
-	        }
-  
-		.audience th 
-			{
-	        width:280px;
-	        text-align:center;
-	        border:2px solid rgb(74, 46, 88);
-	        padding:20px;
-	        background-color:rgb(144, 145, 213);
-	        }
-	        
-	    td 
-	    	{
-		     border:2px solid rgb(74, 46, 88);
-		     padding:12px; 
-		     width:300px;
-		     background-color: lavender;
-		     }
-             .audience {
-                width:300px;
-                text-align:left;
-                border:2px solid #9785cb;
-                padding:5px;
-                background-color:lightcyan;
-            }      
-		h1 {color: darkblue}
 	    
 /* Embed Responsively Rules! */
 div.embed-container {
@@ -210,3 +159,53 @@ footer a {
     	}  
 
 }
+/* AIA page styles */
+html 
+{
+background-color: rgb(219, 235, 234);
+}
+h1{
+font: 26px Arial, Helvetica, sans-serif;
+font-weight: 600;
+padding:5px ;
+}
+
+table
+{
+  border-collapse:collapse;
+  font: 16px "Verdana", Arial, Helvetica, sans-serif;
+  }
+  
+table.client th
+{
+width:340px;
+text-align:left;
+border:2px solid rgb(151, 133, 203);
+padding:5px;
+background-color:lightcyan;
+}
+
+.audience th 
+{
+width:280px;
+text-align:center;
+border:2px solid rgb(74, 46, 88);
+padding:5px;
+background-color:rgb(144, 145, 213);
+}
+
+td 
+{
+ border:2px solid rgb(74, 46, 88);
+ padding:5px; 
+ width:280px;
+ background-color: lavender;
+ }
+ .audience {
+	width:300px;
+	text-align:left;
+	border:2px solid #9785cb;
+	padding:5px;
+	background-color:lightcyan;
+}      
+h1 {color: darkblue}

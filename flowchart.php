@@ -2,9 +2,7 @@
  
 <!-- This is a template to start new pages -->
 <h2 class="subheader">This is the Flowchart page</h2>
-<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores tempore, excepturi nobis soluta nemo illum. Laborum enim aliquam saepe facilis laudantium vel? Ad ut consectetur, eum quae sunt provident ipsa!
-Tempore incidunt atque, consequatur voluptatibus nisi maxime inventore. Illum amet, atque veniam nam eveniet eum? Obcaecati, alias. Perspiciatis nostrum, obcaecati numquam porro fugiat amet eos enim non impedit, quis reiciendis!
-Asperiores veniam beatae labore illum quas, possimus voluptate. Aliquid soluta ullam perspiciatis maiores ut natus, suscipit similique nulla, ipsam totam, rerum quam numquam sequi ipsum magnam doloribus veniam aliquam odio!</p>
-
+<div><iframe width="880px" height="1200px" src="https://docs.google.com/document/d/e/2PACX-1vS9kAlZ-d_nHRrF9ONTYBbYikdq-vxZZLsFKT9zepTEpOCzv5S65jFW9wzohQOKuIEOoZYCkr0K8iVD/pub?embedded=true"></iframe>
+    </div>
 
 <?php include "includes/footer.php";?>
